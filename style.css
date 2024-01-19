@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap');
+
+
+body{
+    background-color: hsl(47, 88%, 63%);
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: black;
+    font-family: 'Figtree', sans-serif;
+}
+
+.container .box-1{
+    background-color: white;
+    position: absolute;
+    height: 350px;
+    width: 250px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid;
+    box-shadow: 6px 6px hsl(0, 0%, 7%);
+}
+
+.container .box-1 .img-1{
+    width: 240px;
+    position: absolute;
+    border-radius: 8px;
+    padding: auto;
+    margin: auto;
+    right: 5px;
+    left: 5px;
+    top: 4%;
+}
+
+.container .box-1 .box-2{
+    background-color: hsl(47, 88%, 63%);
+    width:60px;
+    height: 25px;
+    position: absolute;
+    border-radius: 5px;
+    top: 175px;
+    left: 14px;
+}
+
+.container .box-1 .box-2 h5{
+    position: relative;
+    top: -13px;
+    left: 8px;
+    font-size: 11px;
+    font-weight: 800;
+}
+
+.container .box-1 .p-1{
+    position: absolute;
+    padding: auto;
+    margin: auto;
+    top: 210px;
+    left: 14px;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.container .box-1 h1{
+    position: absolute;
+    padding: auto;
+    margin: auto;
+    top: 236px;
+    left: 14px;
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.container .box-1 .p-2{
+    position: absolute;
+    padding: auto;
+    margin: auto;
+    top: 270px;
+    left: 14px;
+    font-size: 11px;
+    line-height: 1.5;
+    color: hsl(0, 0%, 50%);
+}
+
+.container .box-1 .img-2{
+    position: absolute;
+    top: 90%;
+    width: 22px;
+    left: 16px;
+}
+
+.container .box-1 .p-3{
+    position: absolute;
+    padding: auto;
+    margin: auto;
+    font-size: 10px;
+    font-weight: 800;
+    top: 337px;
+    left: 46px;
+}
